@@ -1,0 +1,23 @@
+{
+  "name": "Discord",
+  "version": "1.0.0",
+  "description": "A discord bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node lib/index.js --watch lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "nodemon": "^2.0.4"
+  }
+}
